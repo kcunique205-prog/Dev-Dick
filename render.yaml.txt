@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: dev-deck-arsenal
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: ADMIN_USER
+        value: "diwas"
+      - key: ADMIN_PASSWORD
+        value: "@diwazzbro"
+      - key: TELEGRAM_BOT_TOKEN
+        value: "8279866700:AAEZ_-0B4NDHlnrhrj81a6knakqdlCWRRlg"
+      - key: TELEGRAM_CHAT_ID
+        value: "-4970195242"
+      - key: PYTHON_VERSION
+        value: 3.10.6

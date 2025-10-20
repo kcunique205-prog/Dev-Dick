@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "access_code": "diwaskhatri",
+    "live_drop": {
+      "active": true,
+      "message": "🔥 LIVE! Premium CC Checker Script Source Code Added! 🔥"
+    }
+  },
+  "stats": {
+    "logins": 0,
+    "admin_logins": 0
+  },
+  "resources": [
+    {
+      "id": 1,
+      "category": "downloader",
+      "title": "Spotify Downloader",
+      "description": "Download music from Spotify using this API.",
+      "content": "https://spotify-down.apis-bj-devs.workers.dev/?url=",
+      "download_url": null,
+      "icon_class": "fa-brands fa-spotify",
+      "premium": false
+    },
+    {
+      "id": 2,
+      "category": "downloader",
+      "title": "TikTok Downloader",
+      "description": "Download videos from TikTok using this API.",
+      "content": "https://tikwm.com/api/?url=",
+      "download_url": null,
+      "icon_class": "fa-brands fa-tiktok",
+      "premium": false
+    },
+    {
+      "id": 3,
+      "category": "ai",
+      "title": "Qwen AI API",
+      "description": "AI chat API using the powerful Qwen model.",
+      "content": "https://qwen-ai.apis-bj-devs.workers.dev/?text=",
+      "download_url": null,
+      "icon_class": "fa-solid fa-robot",
+      "premium": true
+    },
+    {
+      "id": 4,
+      "category": "ai",
+      "title": "Gemini API",
+      "description": "Access Google's Gemini AI for chat.",
+      "content": "Your Personal Gemini API Key is required here.",
+      "download_url": null,
+      "icon_class": "fa-solid fa-brain",
+      "premium": true
+    }
+  ]
+}
