@@ -1,55 +1,54 @@
 {
   "settings": {
-    "access_code": "diwaskhatri",
-    "live_drop": {
-      "active": true,
-      "message": "🔥 LIVE! Premium CC Checker Script Source Code Added! 🔥"
-    }
-  },
-  "stats": {
-    "logins": 0,
-    "admin_logins": 0
+    "admin_user": "diwas",
+    "admin_pass": "@diwazzbro"
   },
   "resources": [
     {
       "id": 1,
-      "category": "downloader",
-      "title": "Spotify Downloader",
-      "description": "Download music from Spotify using this API.",
-      "content": "https://spotify-down.apis-bj-devs.workers.dev/?url=",
+      "category": "api",
+      "title": "Spotify Downloader API",
+      "description": "API to fetch download links for any Spotify track.",
+      "content": "https://api.example.com/spotify?track=",
       "download_url": null,
       "icon_class": "fa-brands fa-spotify",
       "premium": false
     },
     {
       "id": 2,
-      "category": "downloader",
-      "title": "TikTok Downloader",
-      "description": "Download videos from TikTok using this API.",
-      "content": "https://tikwm.com/api/?url=",
-      "download_url": null,
-      "icon_class": "fa-brands fa-tiktok",
-      "premium": false
+      "category": "source-code",
+      "title": "Discord Token Grabber",
+      "description": "Python script for educational purposes.",
+      "content": "https://github.com/example/token-grabber",
+      "download_url": "https://github.com/example/token-grabber/archive/main.zip",
+      "icon_class": "fa-solid fa-code",
+      "premium": true
     },
     {
       "id": 3,
-      "category": "ai",
-      "title": "Qwen AI API",
-      "description": "AI chat API using the powerful Qwen model.",
-      "content": "https://qwen-ai.apis-bj-devs.workers.dev/?text=",
+      "category": "video",
+      "title": "Ethical Hacking Course",
+      "description": "Complete video tutorial series on ethical hacking.",
+      "content": "https://youtube.com/embed/example-video-id",
       "download_url": null,
-      "icon_class": "fa-solid fa-robot",
-      "premium": true
-    },
-    {
-      "id": 4,
-      "category": "ai",
-      "title": "Gemini API",
-      "description": "Access Google's Gemini AI for chat.",
-      "content": "Your Personal Gemini API Key is required here.",
-      "download_url": null,
-      "icon_class": "fa-solid fa-brain",
+      "icon_class": "fa-solid fa-video",
       "premium": true
     }
+  ],
+  "users": {
+    "123456789": {
+      "username": "demouser",
+      "access_code": "123456",
+      "credits": 100,
+      "is_premium": false,
+      "last_login": "2025-10-20T12:00:00Z",
+      "is_admin": true
+    }
+  },
+  "live_drop_pool": [
+    "401288******9999|03|28|123",
+    "512345******1234|05|27|321",
+    "444433******5555|11|29|456",
+    "411111******1111|01|26|789"
   ]
 }
